@@ -1,0 +1,89 @@
+In this homework, you should equalize 'random_state' variable to 1 when it required.
+
+0) Download 'Lebron.csv' from classroom. We will also use it in final. Enter your kaggle account. You will see new dataset button on the right panel. Create your dataset and upload the file.
+
+1) Create a new dataframe that only includes Lebron James shots.
+
+2) Write a code that shows the number of data which have some values, percentiles and mean for each column. Create a new series which includes column names.
+
+3) Read data that you uploaded to your notebook. Show the first 5 rows of that dataset. Comment if you find anything interesting.
+
+4)Find how many columns and rows are included in our dataset.
+
+5) What is the data type of the columns in our dataset? (Like str, int,float)
+
+6) Who has highest shooting percentage in Cleveland team? (All type of shots are included like free throw, 2 points, 3 points)
+
+7) Show the number of shots made by each player in Cleveland team.
+
+8) What is the index of the shot made by Lebron James, which has maximum x_location value?
+
+9) Write a function which gets x_location and y_location values and returns the distance of that shot. You should calculate rectilinear distance in terms of feet. Add distance variable to our original database as a new column. And again create another column which classifies shots according to its distance. 0-10 feet shots should be classified as 'near', 10-20 feet shots = 'mid', 20-30 = 'long', 30+ = 'middlecourt'. Also, add this classification too, as a new column and name it 'classification'.
+
+10) Create a list(series) that shows number of shots made for each shot type. And sort them in alphabetic order. Add new shot type created by you. (You can name it whatever you like). And then delete it again. Also show the series which includes the index of 'bank shots' in our dataset. 
+
+11) Create a blank series. Also create another series which includes unique shot types. Fill the shot types which includes 'a' letter in that blank series.
+
+12) We saw the list comprehension method in our lessons. Find the all shots which have y_location values higher than 250 using list comprehension function.
+
+For instance: def......
+Return .....
+
+Use only two rows like in example.
+
+13) Create a dictionary. We will give quarter values to this dictionary. It will return 'first quarter' if quarter is one, 'second quarter' if quarter is two, 'third quarter' if quarter is three, or 'last quarter' if quarter is four.
+
+14) write all the modules/libraries that we used in our lessons. Find the functions that belongs to that module, and select one of them. Show me, which variables that function gets, and the meaning of the variables.
+
+15) Create a new data frame for Lebron James like the example below.
+	Missed	Scored
+NYK	10	20
+ATL	30	40
+
+Numbers are arbitrary in the example.
+
+16) Group data according to its shoot player and quarter variables. Also using the distance column which you created above, find the index which have maximum distance.
+Example:
+(Shoot player)	   (quarter) 	(index)
+Lebron James 		1	 5
+Lebron James 		2	 23 
+
+Note: Column names can be different, it doesn't matter.
+
+17) Group data according to its shoot player and Opponent. Order Cleveland players according to the number of shots made in descending order.
+Lebron James NYK 150
+Lebron James DEN 20
+
+18) Change columns data types. (float to integer), (integer to float) 
+Note: Never make this change on original dataset.
+
+19) Does 'self previous shot' variable include null values? Should we fill the entries in this variable? İf you think so, fill it with fillna() function.
+
+20) This could be fun. Change all English column names to Turkish one using online dictionary.
+
+21) Let's assume we have another matches data related with our dataset. Should we add it using concat or join. Which function should be used in which condition, simply explain.
+
+22) Our target variable will be current shot outcome. Use all related functions that we learned in data visualization. (Like regression plot, lm plot or bar plot). Please be prepared to spend enough time on this question. And show me, which column variables could be related with our prediction according to data visualization that you made. Comment on each graphics.
+
+23) Split the data into train and validation datasets. Select related columns as 'feature'.
+
+24) Create A Decision Tree model and find its mean absolute value error.
+
+25) Define maximum leaf nodes in your decision tree model, and select the best among them in terms of the value of mean absolute error. Why do we need to do this? Explain.
+
+26) Can maximum leaf nodes also be used in RandomForest model? Which function can be helpful to understand it? Show it.
+
+27) Create A Random Forest model and find its mean absolute value error.
+
+28) What are the advantages, disadvantages of random forest and decision tree. Explain it.
+
+The answer of question, related codes, and comments will be included in one word.
+
+All codes you created in kaggle notebook will be copied in another word.
+
+And you should also share the homework code in the kaggle with me.
+
+Don't use any code, that you didn't learn in lessons. It won't do any good. You can use our notes in kaggle.
+
+Deadline: 2 May 2022 09:00 AM
+Good luck.
